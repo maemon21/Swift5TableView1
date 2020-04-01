@@ -13,6 +13,8 @@
 		EC92EA9524343B5E0003D3C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC92EA9324343B5E0003D3C1 /* Main.storyboard */; };
 		EC92EA9724343B5F0003D3C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC92EA9624343B5F0003D3C1 /* Assets.xcassets */; };
 		EC92EA9A24343B5F0003D3C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC92EA9824343B5F0003D3C1 /* LaunchScreen.storyboard */; };
+		EC92EAA4243442120003D3C1 /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC92EAA3243442120003D3C1 /* ViewController3.swift */; };
+		EC92EAA624344B0D0003D3C1 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC92EAA524344B0D0003D3C1 /* ViewController2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		EC92EA9624343B5F0003D3C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC92EA9924343B5F0003D3C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EC92EA9B24343B5F0003D3C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC92EAA3243442120003D3C1 /* ViewController3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
+		EC92EAA524344B0D0003D3C1 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				EC92EA8D24343B5E0003D3C1 /* AppDelegate.swift */,
 				EC92EA8F24343B5E0003D3C1 /* SceneDelegate.swift */,
 				EC92EA9124343B5E0003D3C1 /* ViewController.swift */,
+				EC92EAA524344B0D0003D3C1 /* ViewController2.swift */,
+				EC92EAA3243442120003D3C1 /* ViewController3.swift */,
 				EC92EA9324343B5E0003D3C1 /* Main.storyboard */,
 				EC92EA9624343B5F0003D3C1 /* Assets.xcassets */,
 				EC92EA9824343B5F0003D3C1 /* LaunchScreen.storyboard */,
@@ -138,6 +144,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC92EAA624344B0D0003D3C1 /* ViewController2.swift in Sources */,
+				EC92EAA4243442120003D3C1 /* ViewController3.swift in Sources */,
 				EC92EA9224343B5E0003D3C1 /* ViewController.swift in Sources */,
 				EC92EA8E24343B5E0003D3C1 /* AppDelegate.swift in Sources */,
 				EC92EA9024343B5E0003D3C1 /* SceneDelegate.swift in Sources */,
@@ -287,6 +295,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FT547WF4CQ;
 				INFOPLIST_FILE = Swift5TableView1/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -294,7 +303,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.ryogo.Swift5TableView1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -305,6 +314,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FT547WF4CQ;
 				INFOPLIST_FILE = Swift5TableView1/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -312,7 +322,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.ryogo.Swift5TableView1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
